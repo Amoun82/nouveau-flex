@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* block conteneur */
+.conteneur
+{
+    border: 3px black double ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* pour les titres avec le flex*/
+h1,h2,h3
+{
+    border: firebrick 3px double;
+}
+
+/* les premieres rangees */
+.rangee1,.rangee2,.rangee3
+{
+    border: 1px pink solid;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* les petites rangees */
+.petiterangee1,.petiterangee2,.petiterangee3
+{
+    border: red 1px dashed;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* plus petites rangees */ 
+.petitepetiterangee1,.petitepetiterangee2,.petitepetiterangee3
+{
+    border: deeppink 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-grow: 1;
+    margin: 10px;
+}
